@@ -1,31 +1,20 @@
 <template>
-  <swiper :options="swiperOption">
-    <!-- slides -->
-    <swiper-slide>I'm Slide 1</swiper-slide>
-    <swiper-slide>I'm Slide 2</swiper-slide>
-    <swiper-slide>I'm Slide 3</swiper-slide>
-    <swiper-slide>I'm Slide 4</swiper-slide>
-    <swiper-slide>I'm Slide 5</swiper-slide>
-    <swiper-slide>I'm Slide 6</swiper-slide>
-    <swiper-slide>I'm Slide 7</swiper-slide>
-    <!-- Optional controls -->
-    <div
-      class="swiper-pagination"
-      slot="pagination"
-    ></div>
-    <div
-      class="swiper-button-prev"
-      slot="button-prev"
-    ></div>
-    <div
-      class="swiper-button-next"
-      slot="button-next"
-    ></div>
-    <div
-      class="swiper-scrollbar"
-      slot="scrollbar"
-    ></div>
-  </swiper>
+  <div class="wrapper">
+    <swiper :options="swiperOption">
+      <swiper-slide
+        v-for='item of swiperList'
+        :key='item.id'
+      ><img
+          class="swiper-img"
+          :src='item.imgUrl'
+        ></swiper-slide>
+      <div
+        class="swiper-pagination"
+        slot="pagination"
+      >
+      </div>
+    </swiper>
+  </div>
 </template>
 
 <script>
@@ -33,11 +22,36 @@ export default {
   name: 'HomeSwiper',
   data () {
     return {
-      swiperOption: {}
+      swiperOption: {
+        pagination: '.swiper-pagination',
+        loop: true
+      },
+      swiperList: [{
+        id: '0001',
+        imgUrl: "https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20197/a4c27b0a5fc1d9e9e620225869089b12.jpg_750x200_e4720428.jpg"
+      }, {
+        id: '0002',
+        imgUrl: "https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20197/0b0622e5b6ac5fbed3084dd2832e6f8f.jpg_750x200_895321b6.jpg"
+      }]
     }
   }
 
 }
 </script>
 
-<style scoped lang='stylus'></style>
+<style scoped lang='stylus'>
+.wrapper >>>.swiper-pagination-bullet-active {
+  background: #fff;
+}
+
+.wrapper {
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  padding-bottom: 37.5%;
+
+  .swiper-img {
+    width: 100%;
+  }
+}
+</style>
