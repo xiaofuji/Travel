@@ -1,21 +1,23 @@
 import Vue from 'vue'
-import VueRouter from 'vue-router'
+import Router from 'vue-router'
 
-import About from '../views/About'
-import Home1 from '../views/Home1'
+import Home from '../pages/home/Home'
+//import List from '../pages/list/List'
 
 
-Vue.use(VueRouter)
+Vue.use(Router)
 
-export default new VueRouter({
+export default new Router({
   routes: [
     {
-      path: '/about',//path为路径
-      component: About
+      path: '/',
+      name: 'Home',      //path为路径
+      component: Home
     },
-    {
-      path: '/home1',//path为路径
-      component: Home1
-    }
+    // {
+    //   path: '/list',
+    //   name: 'List',            //path为路径
+    //   component: List
+    // }
   ]
 })
