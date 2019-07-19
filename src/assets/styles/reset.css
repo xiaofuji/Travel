@@ -9,7 +9,7 @@ html {
   border: 0;
   font: inherit;
   font-size: 100px;
-  vertical-align: baseline;
+  vertical-align: bottom;
 }
 
 body,
@@ -96,7 +96,7 @@ video {
   padding: 0;
   border: 0;
   font: inherit;
-  vertical-align: baseline;
+  vertical-align: bottom;
 }
 
 /* HTML5 display-role reset for older browsers */

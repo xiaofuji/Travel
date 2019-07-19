@@ -36,7 +36,8 @@ export default {
         imgUrl: "https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20197/0b0622e5b6ac5fbed3084dd2832e6f8f.jpg_750x200_895321b6.jpg"
       }]
     }
-  }
+  },
+
 
 }
 </script>
@@ -49,8 +50,6 @@ export default {
 .wrapper {
   overflow: hidden;
   width: 100%;
-  height: 0;
-  padding-bottom: 26%;
 
   .swiper-img {
     width: 100%;
