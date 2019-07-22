@@ -1,0 +1,102 @@
+{
+  "ret": true,
+  "data": {
+    "city": "北京",
+    "swiperList": [{
+      "id": "0001",
+      "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20197/a4c27b0a5fc1d9e9e620225869089b12.jpg_750x200_e4720428.jpg"
+    }, {
+      "id": "0002",
+      "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20197/0b0622e5b6ac5fbed3084dd2832e6f8f.jpg_750x200_895321b6.jpg"
+    }],
+    "iconList": [{
+        "id": "0001",
+        "imgUrl": "http://imgs.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "desc": "景点门票"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://imgs.qunarzz.com/piao/fusion/1803/6c/9e54a8540fee0102.png",
+        "desc": "故宫"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://imgs.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+        "desc": "北京必游"
+      }, {
+        "id": "0004",
+        "imgUrl": "http://imgs.qunarzz.com/piao/fusion/1803/3e/86314b2af03b7502.png",
+        "desc": "水上乐园"
+      }, {
+        "id": "0005",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20191/0334cf5430b9b5505fd79e2b8d7e8670.png",
+        "desc": "爬长城"
+      }, {
+        "id": "0006",
+        "imgUrl": "http://imgs.qunarzz.com/piao/fusion/1803/67/9a1678221b8e0e02.png",
+        "desc": "古北水镇"
+      }, {
+        "id": "0007",
+        "imgUrl": "http://imgs.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png",
+        "desc": "动植物园"
+      }, {
+        "id": "0008",
+        "imgUrl": "http://imgs.qunarzz.com/piao/fusion/1803/fa/2548667cb6e902.png",
+        "desc": "北京野生动植物园"
+      },
+      {
+        "id": "0009",
+        "imgUrl": "http://imgs.qunarzz.com/piao/fusion/1803/fa/2548667cb6e902.png",
+        "desc": "北京野生动植物园"
+      }
+    ],
+    "recommendList": [{
+        "id": "0001",
+        "imgUrl": "'http://imgs.qunarzz.com/sight/p0/1508/89/895a1b7add84f23faca053ce9e3153db.water.jpg_200x200_99ae30ee.jpg'",
+        "title": "'北京欢乐谷'",
+        "desc": "'北京欢乐谷畅游'"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "'http://imgs.qunarzz.com/sight/p0/1508/89/895a1b7add84f23faca053ce9e3153db.water.jpg_200x200_99ae30ee.jpg'",
+        "title": "'北京欢乐谷'",
+        "desc": "'北京欢乐谷畅游'"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "'http://imgs.qunarzz.com/sight/p0/1508/89/895a1b7add84f23faca053ce9e3153db.water.jpg_200x200_99ae30ee.jpg'",
+        "title": "'北京欢乐谷'",
+        "desc": "'北京欢乐谷畅游'"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "'http://imgs.qunarzz.com/sight/p0/1508/89/895a1b7add84f23faca053ce9e3153db.water.jpg_200x200_99ae30ee.jpg'",
+        "title": "'北京欢乐谷'",
+        "desc": "'北京欢乐谷畅游'"
+      }
+    ],
+    "recommendLists": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg",
+        "title": "北京欢乐谷",
+        "desc": "北京欢乐谷畅游"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg",
+        "title": "北京欢乐谷",
+        "desc": "北京欢乐谷畅游"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg",
+        "title": "北京欢乐谷",
+        "desc": "北京欢乐谷畅游"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg",
+        "title": "北京欢乐谷",
+        "desc": "北京欢乐谷畅游"
+      }
+    ]
+  }
+}

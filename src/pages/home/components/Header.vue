@@ -7,7 +7,8 @@
       <span class="iconfont">&#xe632;</span>
       输入城市／景点／游玩主题</div>
     <div class="header-right">
-      城市</div>
+      {{this.city}}
+    </div>
     <div class="iconfont arrow-icon">&#xe600;</div>
   </div>
 
@@ -16,6 +17,9 @@
 <script>
 export default {
   name: 'HomeHeader',
+  props: {
+    city: String
+  }
 }
 </script>
 
