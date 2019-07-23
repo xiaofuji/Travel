@@ -15,7 +15,8 @@ import HomeSwiper from './components/Swiper'
 import HomeIcons from './components/Icons'
 import HomeRecommend from './components/Recommend'
 import HomeWeekend from './components/Weekend'
-import axios from 'axios'
+import { getHomeInfo } from '../../service/home'
+
 export default {
   name: 'Home',
   components: {
@@ -36,26 +37,25 @@ export default {
     }
   },
   methods: {
-    getHomeInfo () {
-      axios.get('/index.json')
-        .then(this.getHomeInfoSucc)
-    },
-    getHomeInfoSucc (res) {
-      res = res.data
-      if (res.ret && res.data) {
-        const data = res.data
-        this.city = data.city
-        this.swiperList = data.swiperList
-        this.iconList = data.iconList
-        this.recommendList = data.recommendList
-        this.recommendLists = data.recommendLists
-      }
+    getHomeInfoSucc (data) {
+      this.city = data.city
+      this.swiperList = data.swiperList
+      this.iconList = data.iconList
+      this.recommendList = data.recommendList
+      this.recommendLists = data.recommendLists
     }
   },
-  mounted () {
-    this.getHomeInfo
+  async mounted () {
+    try {
+      const homeInfo = await getHomeInfo()
+      this.getHomeInfoSucc(homeInfo)
+    } catch (e) {
+      console.log(e)
+      // alert(e || e.msg)
+    }
   }
 }
+
 </script>
 
 <style scoped>

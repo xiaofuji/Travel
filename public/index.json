@@ -1,5 +1,6 @@
 {
   "ret": true,
+  "errorMsg": "获取接口失败了",
   "data": {
     "city": "北京",
     "swiperList": [{
@@ -50,27 +51,27 @@
     ],
     "recommendList": [{
         "id": "0001",
-        "imgUrl": "'http://imgs.qunarzz.com/sight/p0/1508/89/895a1b7add84f23faca053ce9e3153db.water.jpg_200x200_99ae30ee.jpg'",
-        "title": "'北京欢乐谷'",
-        "desc": "'北京欢乐谷畅游'"
+        "imgUrl": "http://imgs.qunarzz.com/sight/p0/1508/89/895a1b7add84f23faca053ce9e3153db.water.jpg_200x200_99ae30ee.jpg",
+        "title": "北京欢乐谷",
+        "desc": "北京欢乐谷畅游"
       },
       {
         "id": "0002",
-        "imgUrl": "'http://imgs.qunarzz.com/sight/p0/1508/89/895a1b7add84f23faca053ce9e3153db.water.jpg_200x200_99ae30ee.jpg'",
-        "title": "'北京欢乐谷'",
-        "desc": "'北京欢乐谷畅游'"
+        "imgUrl": "http://imgs.qunarzz.com/sight/p0/1508/89/895a1b7add84f23faca053ce9e3153db.water.jpg_200x200_99ae30ee.jpg",
+        "title": "北京欢乐谷",
+        "desc": "北京欢乐谷畅游"
       },
       {
         "id": "0003",
-        "imgUrl": "'http://imgs.qunarzz.com/sight/p0/1508/89/895a1b7add84f23faca053ce9e3153db.water.jpg_200x200_99ae30ee.jpg'",
-        "title": "'北京欢乐谷'",
-        "desc": "'北京欢乐谷畅游'"
+        "imgUrl": "http://imgs.qunarzz.com/sight/p0/1508/89/895a1b7add84f23faca053ce9e3153db.water.jpg_200x200_99ae30ee.jpg",
+        "title": "北京欢乐谷",
+        "desc": "北京欢乐谷畅游"
       },
       {
         "id": "0004",
-        "imgUrl": "'http://imgs.qunarzz.com/sight/p0/1508/89/895a1b7add84f23faca053ce9e3153db.water.jpg_200x200_99ae30ee.jpg'",
-        "title": "'北京欢乐谷'",
-        "desc": "'北京欢乐谷畅游'"
+        "imgUrl": "http://imgs.qunarzz.com/sight/p0/1508/89/895a1b7add84f23faca053ce9e3153db.water.jpg_200x200_99ae30ee.jpg",
+        "title": "北京欢乐谷",
+        "desc": "北京欢乐谷畅游"
       }
     ],
     "recommendLists": [{
