@@ -11,9 +11,7 @@
         {{this.city}}
       </div>
     </router-link>
-    <div class="header-right">
-      {{this.city}}
-    </div>
+
     <div class="iconfont arrow-icon">&#xe600;</div>
 
   </div>
