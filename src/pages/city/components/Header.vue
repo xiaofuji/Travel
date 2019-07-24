@@ -38,7 +38,7 @@ export default {
     height: 0.22rem;
     line-height: 0.22rem;
     text-align: center;
-    font-size: 0.15rem;
+    font-size: 0.18rem;
     color: #fff;
   }
 }
