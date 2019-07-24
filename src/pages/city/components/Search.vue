@@ -33,6 +33,9 @@ export default {
     height: 0.31rem;
     line-height: 0.31rem;
     text-align: center;
+    color: #666;
+    font-size: 0.14rem;
+    border: none;
     border-radius: 0.03rem;
   }
 }

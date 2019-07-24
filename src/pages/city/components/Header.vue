@@ -1,7 +1,10 @@
 <template>
   <div class="header">
     城市选择
-    <div class="Iconfont city-back">&#xe624;</div>
+    <router-link to="/">
+      <div class="iconfont city-back">&#xe624;</div>
+    </router-link>
+
   </div>
 
 </template>
@@ -35,7 +38,7 @@ export default {
     height: 0.22rem;
     line-height: 0.22rem;
     text-align: center;
-    font-size: 0.18rem;
+    font-size: 0.15rem;
     color: #fff;
   }
 }

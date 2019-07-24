@@ -8,7 +8,8 @@
       输入城市／景点／游玩主题</div>
     <router-link to="/city">
       <div class="header-right">
-        城市</div>
+        {{this.city}}
+      </div>
     </router-link>
     <div class="iconfont arrow-icon">&#xe600;</div>
 
@@ -19,6 +20,9 @@
 <script>
 export default {
   name: 'HomeHeader',
+  props: {
+    city: String
+  }
 }
 </script>
 
@@ -34,11 +38,10 @@ export default {
 
   .header-left {
     width: 0.32rem;
-    float: left;
 
     .back-icon {
       text-align: center;
-      font-size: 0.2rem;
+      font-size: 0.15rem;
     }
   }
 
@@ -57,15 +60,17 @@ export default {
 
   .header-right {
     width: 0.62rem;
-    float: right;
     text-align: center;
     font-size: 0.16rem;
     color: #fff;
+  }
 
-    .arrow-icon {
-      margin-left: -0.02rem;
-      font-size: 0.12rem;
-    }
+  .arrow-icon {
+    margin-left: -0.15rem;
+    margin-right: 0.1rem;
+    display: block;
+    width: 0.2rem;
+    font-size: 30px;
   }
 }
 </style>

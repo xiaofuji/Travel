@@ -4,7 +4,7 @@
     <ul>
       <li
         class="item border-bottom"
-        v-for="item of recommendList"
+        v-for="item of list"
         :key='item.id'
       >
         <div class="item-img-wrapper">
@@ -24,42 +24,44 @@
 <script>
 export default {
   name: 'HomeWeekend',
-  data () {
-    return {
-      recommendList: [
-        {
-          id: '0001',
-          imgUrl: 'http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg',
-          title: '北京欢乐谷',
-          desc: '北京欢乐谷畅游'
-        },
-        {
-          id: '0002',
-          imgUrl: 'http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg',
-          title: '北京欢乐谷',
-          desc: '北京欢乐谷畅游'
-        },
-        {
-          id: '0003',
-          imgUrl: 'http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg',
-          title: '北京欢乐谷',
-          desc: '北京欢乐谷畅游'
-        },
-        {
-          id: '0004',
-          imgUrl: 'http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg',
-          title: '北京欢乐谷',
-          desc: '北京欢乐谷畅游'
-        }
-      ]
-    }
+  props: {
+    list: Array
   }
+  // data () {
+  //   return {
+  //     recommendLists: [
+  //       {
+  //         id: '0001',
+  //         imgUrl: 'http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg',
+  //         title: '北京欢乐谷',
+  //         desc: '北京欢乐谷畅游'
+  //       },
+  //       {
+  //         id: '0002',
+  //         imgUrl: 'http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg',
+  //         title: '北京欢乐谷',
+  //         desc: '北京欢乐谷畅游'
+  //       },
+  //       {
+  //         id: '0003',
+  //         imgUrl: 'http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg',
+  //         title: '北京欢乐谷',
+  //         desc: '北京欢乐谷畅游'
+  //       },
+  //       {
+  //         id: '0004',
+  //         imgUrl: 'http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg',
+  //         title: '北京欢乐谷',
+  //         desc: '北京欢乐谷畅游'
+  //       }
+  //     ]
+  //   }
+  // }
 }
 
 </script>
 <style scoped lang='stylus'>
 .title {
-  margin-top: 0.1rem;
   font-size: 0.16rem;
   line-height: 0.4rem;
   background: #eee;
