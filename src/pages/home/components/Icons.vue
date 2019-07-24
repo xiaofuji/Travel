@@ -19,6 +19,11 @@
           </div>
         </div>
       </swiper-slide>
+      <div
+        class="swiper-pagination"
+        slot="pagination"
+      >
+      </div>
     </swiper>
   </div>
 </template>
@@ -76,7 +81,8 @@ export default {
       // }
       // ],
       iconSwiperOpt: {
-        autoplay: false
+        autoplay: false,
+        pagination: '.swiper-pagination'
       }
     }
   },
@@ -104,6 +110,10 @@ export default {
   height: 0;
   padding-bottom: 50%;
   font-size: 0.16rem;
+}
+
+.icons >>> .swiper-pagination-bullet {
+  background: rgba(0, 175, 190, 0.8);
 }
 
 .icon {

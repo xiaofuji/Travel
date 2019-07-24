@@ -52,8 +52,8 @@ export default {
     margin-left: 0.1rem;
     margin-top: 0.06rem;
     padding-left: 0.1rem;
-    background: #fff;
     border-radius: 0.05rem;
+    background: #fff;
     font-size: 0.16rem;
     color: #ccc;
   }
@@ -68,9 +68,8 @@ export default {
   .arrow-icon {
     margin-left: -0.15rem;
     margin-right: 0.1rem;
-    display: block;
-    width: 0.2rem;
     font-size: 30px;
+    width: 0.2rem;
   }
 }
 </style>
