@@ -3,7 +3,7 @@
     <div class="title">周末去哪儿</div>
     <ul>
       <li
-        class="item border-bottom"
+        class="item"
         v-for="item of list"
         :key='item.id'
       >
@@ -81,7 +81,6 @@ export default {
 
   .item-info {
     font-size: 0.16rem;
-    flex: 1;
     padding: 0.05rem;
 
     .item-info-title {

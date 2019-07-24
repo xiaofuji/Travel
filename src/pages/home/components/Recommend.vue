@@ -3,7 +3,7 @@
     <div class="title">热销推荐</div>
     <ul>
       <li
-        class="item border-bottom"
+        class="item"
         v-for="item of list"
         :key='item.id'
       >
