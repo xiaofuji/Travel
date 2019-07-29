@@ -1,0 +1,93 @@
+{
+  "ret": true,
+  "errorMsg": "获取接口失败了",
+  "data": {
+    "hotCities": [{
+        "id": "0001",
+        "spell": "beijing",
+        "name": "北京"
+      },
+      {
+        "id": "0002",
+        "spell": "shanghai",
+        "name": "上海"
+      },
+      {
+        "id": "0003",
+        "spell": "xian",
+        "name": "西安"
+      },
+      {
+        "id": "0004",
+        "spell": "sanya",
+        "name": "三亚"
+      }
+    ],
+    "cities": {
+      "A": [{
+          "id": "0997",
+          "name": "阿克苏",
+          "spell": "Akesu"
+        },
+        {
+          "id": "0837",
+          "name": "阿坝",
+          "spell": "Aba"
+        },
+        {
+          "id": "0483",
+          "name": "阿拉善盟",
+          "spell": "Alashanmeng"
+        }
+      ],
+      "B": [{
+          "id": "023",
+          "name": "璧山",
+          "spell": "Bishan"
+        },
+        {
+          "id": "0391",
+          "name": "博爱",
+          "spell": "Boai"
+        },
+        {
+          "id": "0752",
+          "name": "博罗",
+          "spell": "Boluo"
+        }
+      ],
+      "C": [{
+          "id": "023",
+          "name": "重庆",
+          "spell": "Chongqing"
+        },
+        {
+          "id": "0431",
+          "name": "长春",
+          "spell": "Changchun"
+        },
+        {
+          "id": "0731",
+          "name": "长沙",
+          "spell": "Changsha"
+        }
+      ],
+      "D": [{
+          "id": "0872",
+          "name": "大理",
+          "spell": "Dali"
+        },
+        {
+          "id": "0415",
+          "name": "丹东",
+          "spell": "Dandong"
+        },
+        {
+          "id": "0459",
+          "name": "大庆",
+          "spell": "Daqing"
+        }
+      ]
+    }
+  }
+}
