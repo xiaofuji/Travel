@@ -87,7 +87,17 @@
           "name": "大庆",
           "spell": "Daqing"
         }
-      ]
+      ],
+      "E": [{
+        "id": "0718",
+        "name": "恩施",
+        "spell": "enshi"
+      }],
+      "F": [{
+        "id": "0413",
+        "name": "抚顺",
+        "spell": "fushun"
+      }]
     }
   }
 }

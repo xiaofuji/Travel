@@ -5,8 +5,12 @@
     <city-list
       :cities='cities'
       :hot='hotCities'
+      :letter='letter'
     ></city-list>
-    <city-alphabet :cities='cities'></city-alphabet>
+    <city-alphabet
+      :cities='cities'
+      @change='handleLetterChange'
+    ></city-alphabet>
   </div>
 
 </template>
@@ -29,13 +33,17 @@ export default {
   data () {
     return {
       cities: {},
-      hotCities: []
+      hotCities: [],
+      letter: ''
     }
   },
   methods: {
     getCityInfoSucc (data) {
       this.cities = data.cities
       this.hotCities = data.hotCities
+    },
+    handleLetterChange (letter) {
+      this.letter = letter
     }
   },
   async mounted () {
@@ -46,7 +54,9 @@ export default {
       console.log(e)
       // alert(e || e.msg)
     }
+
   }
+
 }
 </script>
 
