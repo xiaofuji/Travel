@@ -23,12 +23,12 @@ export default {
 .header {
   position: relative;
   overflow: hidden;
-  font-size: 0.16rem;
   height: 0.32rem;
   line-height: 0.32rem;
   text-align: center;
-  background: $bgColor;
+  font-size: 0.16rem;
   color: #fff;
+  background: $bgColor;
 
   .city-back {
     position: absolute;

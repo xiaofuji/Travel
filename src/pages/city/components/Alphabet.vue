@@ -16,7 +16,6 @@
 </template>
 
 <script>
-import { clearTimeout } from 'timers';
 
 export default {
   name: 'CityAlphabet',

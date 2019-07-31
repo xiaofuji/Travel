@@ -8,7 +8,6 @@ export const getHomeInfo = () => new Promise(async (resolve, reject) => {
   } else {
     reject(res.errorMsg)
   }
-  console.log(res.ret)
 })
 
 

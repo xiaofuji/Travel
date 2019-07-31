@@ -96,9 +96,9 @@ export default {
   .title {
     padding-left: 0.1rem;
     line-height: 0.27rem;
-    background: #eee;
     font-size: 0.13rem;
     color: #ccc;
+    background: #eee;
   }
 
   .button-list {
@@ -112,10 +112,10 @@ export default {
       .button {
         margin: 0.05rem;
         padding: 0.05rem 0;
-        font-size: 0.13rem;
-        text-align: center;
         border: 0.01rem solid #ccc;
         border-radius: 0.03rem;
+        text-align: center;
+        font-size: 0.13rem;
       }
     }
   }
@@ -124,8 +124,8 @@ export default {
     .item {
       padding-left: 0.1rem;
       line-height: 0.38rem;
-      font-size: 0.13rem;
       border-bottom: 0.01rem solid #eee;
+      font-size: 0.13rem;
     }
   }
 }

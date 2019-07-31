@@ -38,12 +38,12 @@ export default {
     }
   },
   methods: {
+    handleLetterChange (letter) {
+      this.letter = letter
+    },
     getCityInfoSucc (data) {
       this.cities = data.cities
       this.hotCities = data.hotCities
-    },
-    handleLetterChange (letter) {
-      this.letter = letter
     }
   },
   async mounted () {
