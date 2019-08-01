@@ -16,6 +16,7 @@ import HomeIcons from './components/Icons'
 import HomeRecommend from './components/Recommend'
 import HomeWeekend from './components/Weekend'
 import { getHomeInfo } from '../../service/home'
+// import { mapState } from 'vuex'
 
 export default {
   name: 'Home',
@@ -26,6 +27,9 @@ export default {
     HomeRecommend,
     HomeWeekend
   },
+  // computed: {
+  // ...mapState(['city'])
+  // },
   data () {
     return {
       swiperList: [],

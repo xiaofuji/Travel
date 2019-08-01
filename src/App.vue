@@ -1,21 +1,14 @@
 <template>
   <div id="app">
-    <!--<router-link
-      to='/home'
-      class="home"
-    >home</router-link>
-    <router-link
-      to='/list'
-      class="list"
-    >list</router-link>-->
-    <router-view></router-view>
+    <keep-alive>
+      <router-view></router-view>
+    </keep-alive>
   </div>
 
 </template>
 
 <script>
-// import List from './components/list/List'
-// import Home from './components/home/Home'
+
 
 export default {
   name: 'app',
