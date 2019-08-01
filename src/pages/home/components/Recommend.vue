@@ -2,7 +2,9 @@
   <div>
     <div class="title">热销推荐</div>
     <ul>
-      <li
+      <router-link
+        tag="li"
+        :to="'/detail/'+item.id"
         class="item"
         v-for="item of list"
         :key='item.id'
@@ -17,7 +19,7 @@
           <button class="item-info-button">查看详情</button>
         </div>
 
-      </li>
+      </router-link>
 
     </ul>
   </div>
