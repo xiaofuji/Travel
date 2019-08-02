@@ -56,6 +56,7 @@ export default {
   }
 
 }
+//样式中 z-index的设置是为了解决递归隐藏问题
 </script>
 
 <style scoped lang='stylus'>
@@ -79,6 +80,7 @@ export default {
 }
 
 .header-fixed {
+  z-index: 2;
   position: fixed;
   top: 0;
   left: 0;
